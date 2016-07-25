@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <% include partials/includeHead.ejs %>
+  </head>
+  <body>
+    <% include partials/includeMenu.ejs %>
+    <br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 panel panel-default">
+          <h1 align="center" class="margin-base-vertical">Welcome to the Transport
+            Hub</h1>
+          <p class="help-block text-center">
+            <medium>Hi <%= welcomeMessage %>! Depending on your interest, I'll
+              take you to a city</medium>
+          </p>
+          <form class="margin-base-vertical" method="post" action="/toCity">
+            <p class="input-group">
+              <medium>What is your interest?</medium>
+              <select required name="interest">
+                <option value="history">History</option>
+                <option value="fashion">Fashion</option>
+                <option value="finance">Finance</option>
+              </select>
+            </p>
+            <p class="text-center">
+              <button type="submit" class="btn btn-success btn-lg">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html

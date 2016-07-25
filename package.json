@@ -1,0 +1,23 @@
+{
+  "name": "ejs-hub",
+  "version": "1.0.0",
+  "description": "ejs-gub using bootstrap",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "nodemon",
+    "express",
+    "ejs"
+  ],
+  "author": "rajiv",
+  "license": "ISC",
+  "config": {"secret": "cipher", "port": 3444},
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0"
+  }
+}
