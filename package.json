@@ -4,7 +4,7 @@
   "description": "ejs-hub using bootstrap",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "PORT=8000 nodemon app.js"
   },
   "keywords": [
     "nodemon",
@@ -13,7 +13,7 @@
   ],
   "author": "rajiv",
   "license": "ISC",
-  "config": {"secret": "cipher", "port": "3444"},
+  "config": {"secret": "cipher"},
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.4.2",
