@@ -19,7 +19,7 @@ app.get('/', routes.loginPageHandler);
 app.get('/toLanding', routes.landingPageHandler);
 app.post('/toCity', routes.cityPageHandler);
 
-var port = process.env.npm_package_config_port || 3000;
+var port = process.env.PORT || 3000;
 app.listen(port, function(){
   console.log('HTTP server is listening on port: ' + port);
 });
