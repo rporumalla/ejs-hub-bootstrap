@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: false}));
 
-app.use(session({secret: process.env.npm_package_config_secret, resave: true, saveUninitialized: false}));
+app.use(session({secret: "secret", resave: true, saveUninitialized: false}));
 
 var routes = require('./routes/routes.js');
 
