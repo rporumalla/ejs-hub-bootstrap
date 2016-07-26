@@ -1,7 +1,7 @@
 {
   "name": "ejs-hub",
   "version": "1.0.0",
-  "description": "ejs-gub using bootstrap",
+  "description": "ejs-hub using bootstrap",
   "main": "app.js",
   "scripts": {
     "test": "nodemon app.js"
